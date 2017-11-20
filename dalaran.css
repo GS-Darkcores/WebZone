@@ -1,16 +1,16 @@
 .sidebar .wp-block .wp-block-body .col-md-8 h2 a,
-.sidebar .wp-block .wp-block-body .col-md-8 p,.meta-info span a .text-chrome, .text-red-mid,
+.sidebar .wp-block .wp-block-body .col-md-8 p,.col-sm-10 .meta-info span a .text-chrome, .col-sm-10 .meta-info span a .text-red-mid,
 .sidebar .wp-block .wp-block-body .col-md-12 p:first-child {
   visibility: hidden;
 }
-.meta-info span a .text-chrome:before {
+.col-sm-10 .meta-info span a:before {
   content: "Святая принцесса";
   visibility: visible !important;  
 }
-.meta-info span a .text-chrome:after {
-  content: "Моргания <3";
-  visibility: visible !important;
-  color: #D761FF;  
+.col-sm-10 .meta-info span a .text-chrome:before {
+    content: "Моргания <3";
+    visibility: visible !important;
+    color: #D761FF;
 }
 .sidebar .wp-block .wp-block-body .col-md-8 h2 a:before {
   content: "Святая принцесса Моргания <3";
