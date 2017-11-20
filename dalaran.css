@@ -4,7 +4,7 @@
   visibility: hidden;
 }
 .col-sm-10 .meta-info span a:before {
-  content: "Святая принцесса";
+  content: " Святая принцесса";
   visibility: visible !important;  
 }
 .col-sm-10 .meta-info span a .text-chrome:before {
