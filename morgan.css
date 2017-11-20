@@ -12,6 +12,21 @@
     visibility: visible !important;
     color: #D761FF;
 }
+@media (min-width:1200px) {
+  .sidebar .default .wp-block-body .col-md-4 {
+    width: 200px!important;
+    height: 156px!important
+  }
+}
+
+.sidebar .default .wp-block-body .col-md-4 {
+  background: url(https://forum.aldoran.ru/uploads/profile/photo-13012.gif);
+  background-size: cover;
+  width: 165px;
+  height: 129px;
+  margin-bottom: 15px!important;
+  box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, .7)
+}
 .sidebar .wp-block .wp-block-body .col-md-8 h2 a:before {
   content: "Святая принцесса Моргания <3";
   visibility: visible !important;
