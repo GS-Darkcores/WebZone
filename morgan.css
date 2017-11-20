@@ -27,6 +27,7 @@
   margin-bottom: 15px!important;
   box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, .7);
 }
+.sidebar .avatar-sm {display:none;}
 .sidebar .wp-block .wp-block-body .col-md-8 h2 a:before {
   content: "Святая принцесса Моргания <3";
   visibility: visible !important;
