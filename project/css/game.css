@@ -1,0 +1,82 @@
+body {
+    background: url('../img/bg1.jpg') center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    height: 45px;
+    background: rgba(0, 0, 0, 0.5);
+    bottom: 0;
+}
+
+#browser .card {
+    text-align: center;
+}
+
+#browser .card-text {
+    text-align: left;
+}
+
+.programWindow {
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+.terminalWindow{
+    display: none;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.desIcons {
+    display: inline-grid;
+}
+
+.desIcons .figure:hover {
+    filter: drop-shadow(0 0 3px lightblue) contrast(120%);
+}
+
+.desIcons .figure {
+    margin: 10px;
+}
+
+.desIcons .figure img {
+    max-width: 64px;
+    max-height: 64px;
+    margin-bottom: 4px;
+}
+
+.desIcons .figure figcaption {
+    color: white;
+    text-shadow: 0 0 2px black;
+    font-weight: bold;
+    text-align: center;
+    max-width: 128;
+}
+
+
+.charInfo {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    max-width: 200px;
+    background: rgba(255,255,255,0.9);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 2px black;
+}
+
+.charInfo .charName {
+    background: rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+footer > div {
+    display: inline-block;
+}
+
+footer .righter {
+	float:right;
+	color:white;
+}
